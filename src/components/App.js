@@ -1,9 +1,12 @@
 import Header from "./ui/Header";
 import { ThemeProvider } from "@material-ui/core/styles";
+import theme from "./ui/Theme";
+
 function App() {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
       <Header />
+      hello
     </ThemeProvider>
   );
 }
